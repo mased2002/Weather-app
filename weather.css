@@ -1,0 +1,57 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+text-align:center;
+display:flex;
+flex-direction:column;
+align-items:center;
+ background:lightblue;
+}
+.container{
+ 
+  padding:50px;
+  text-align:center;
+  height:70%;
+}
+.city-info h1{
+  color:goldenrod;
+  font-size:40px;
+  margin-bottom:30px;
+}
+#weatherForm input{
+  font-size:20px;
+}
+#weatherForm button{
+  color:goldenrod;
+  font-size:15px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+#weatherInfo{
+padding:40px;
+ height:290px;
+  width:400px;
+border-radius:10px;
+  background:#353935;
+text-align:center;
+margin-top: 40px;
+  color:#FFFFF0;
+}
+#weatherInfo .temperature{
+  font-size:60px;
+  margin-bottom:30px;
+}
+.advice{
+color:skyblue;
+margin-top:30px;
+}
+.temperature p{
+  font-size:30px;
+  color:pink;
+}
+.other{
+margin-top:30px;
+  display:flex;
+justify-content:space-between ;
+gap:40px;
+color:#d3b17d;
+}
